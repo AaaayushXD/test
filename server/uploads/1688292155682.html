@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/6fcd37fd95.js" crossorigin="anonymous"></script>
+    <title>Netflix</title>
+</head>
+<body>
+    <div class="gradient">
+    <header id="header">
+        <img src="https://assets.nflxext.com/ffe/siteui/vlv3/c8c8a0ad-86d6-45f1-b21d-821afa4e5027/7c462d2d-1a0b-49e2-af42-9c86f416fc17/NP-en-20220801-popsignuptwoweeks-perspective_alpha_website_small.jpg" alt="bgimg" id="bg">
+        <img src="https://www.edigitalagency.com.au/wp-content/uploads/netflix-logo-png-large.png" alt="logo" id="header-img">
+        <nav id="nav-bar">
+            <ul>
+                <a href="#home" class="nav-link"><li>Home</li></a>
+                <a href="#about-us" class="nav-link"><li>Info</li></a>
+               <a href="#subscription" class="nav-link"> <li>Subscription</li></a>
+               <a href="./movie.html" class="nav-link"> <li>Movies</li></a>
+            </ul>
+        </nav>
+    </header>
+        <section id="home">
+            <div class="container">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <label>                
+                    <input type="email" name="email" id="email" placeholder="Email Address">
+                    <input type="submit" value="Get Started" id="submit">
+                </label>
+            </form>
+        </div>
+        </section>
+        <div class="divider-max"></div>
+
+    </div>
+    <main id="main">
+        <section id="about-us">
+            <div class="info">
+                <span class="info-text">
+                    <h2>Enjoy on your TV.</h2>
+                    <p class="text">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+                </span>
+                <video id="video"  controls autoplay muted loop>
+                <source src="netflix.mp4" type="video/mp4" >
+            </video>
+            </div>
+            <div class="divider-max"></div>
+
+            <div class="info rev">
+                <img src="https://img2.rtve.es/i/?w=1600&i=1594892713526.jpg" alt="friends" id="stranger" class="left-img"> 
+                <span class="info-text">
+                    <h1 class="forinfo">Download your shows to watch offline.</h1>
+                    <p class="text">Save your favorites easily and always have something to watch.</p>
+                </span>
+            </div>
+            <div class="divider-max"></div>
+
+            <div class="info">
+                <span class="info-text">
+                    <h1 class="forinfo">Watch everywhere.</h1>
+                    <p class="text">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+                </span>
+               
+            </div>
+            <div class="divider-max"></div>
+
+            <div class="info rev">
+                <img src="https://occ-0-6554-64.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABfpnX3dbgjZ-Je8Ax3xn0kXehZm_5L6-xe6YSTq_ucht9TI5jwDMqusWZKNYT8DfGudD0_wWVVTFLiN2_kaQJumz2iivUWbIbAtF.png?r=11f" alt="kids" id="kids" class="left-img">
+                <span class="info-text">
+                    <h1 class="forinfo">Create profiles for kids.</h1>
+                    <p class="text">Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
+                </span>
+            </div>
+            <div class="divider-max"></div>
+
+        </section>
+
+        <section id="subscription">
+            <h1>Subscription</h1>
+            <h2>Choose the plan that’s right for you</h2>
+            <ul>
+                <li>Watch all you want. Ad-free.</li>
+                <li>Recommendations just for you.</li>
+                <li>Change or cancel your plan anytime.</li>
+            </ul>
+
+                <div class="subs-container">
+                    
+                    <table id="subs">
+                        <tbody>
+                            <tr class="row">
+                                <td class="cell-1"></td>
+                                <td class="cell">Mobile</td>
+                                <td class="cell">Basic</td>
+                                <td class="cell">Standard</td>
+                                <td class="cell">Premium</td>
+                            </tr>
+
+                
+                            <tr class="row">
+                                <td class="cell-1">Monthly price</td>
+                                <td class="cell">Rs 507.58</td>
+                                <td class="cell">Rs 1016.44</td>
+                                <td class="cell">Rs 1270.87</td>
+                                <td class="cell">Rs 1525.30</td>
+                            </tr>
+
+
+                            <tr class="row">
+                                <td class="cell-1">Video quality</td>
+                                <td class="cell">Good</td>
+                                <td class="cell">Good</td>
+                                <td class="cell">Better</td>
+                                <td class="cell">Best</td>
+                            </tr>
+
+
+
+                            <tr class="row">
+                                <td class="cell-1">Resolution</td>
+                                <td class="cell">480p</td>
+                                <td class="cell">480p</td>
+                                <td class="cell">1080p</td>
+                                <td class="cell">4K + HDR</td>
+                            </tr>
+
+
+
+                            <tr class="row">
+                                <td class="cell-1">Devices you can use to watch</td>
+                                <td class="cell"><i class="fa-solid fa-mobile-screen"></i> <br><br> <i class="fa-solid fa-tablet"></i></td>
+                                <td class="cell"><i class="fa-solid fa-mobile-screen"></i> <br><br> <i class="fa-solid fa-tablet"></i> <br><br> <i class="fa-solid fa-computer"></i> <br><br> <i class="fa-solid fa-tv"></i> <br></td>
+                                <td class="cell"><i class="fa-solid fa-mobile-screen"></i> <br><br> <i class="fa-solid fa-tablet"></i> <br><br> <i class="fa-solid fa-computer"></i> <br><br> <i class="fa-solid fa-tv"></i> <br></td>
+                                <td class="cell"><i class="fa-solid fa-mobile-screen"></i> <br><br> <i class="fa-solid fa-tablet"></i> <br><br> <i class="fa-solid fa-computer"></i> <br><br> <i class="fa-solid fa-tv"></i> <br></td>
+                            </tr>
+            <div class="divider-min"></div>
+                
+                            <tr class="row">
+                                <td class="cell-1"></td>
+                                <td class="cell"><button class="select">Select</button></td>
+                                <td class="cell"><button class="select">Select</button></td>
+                                <td class="cell"><button class="select">Select</button></td>
+                                <td class="cell"><button class="select">Select</button></td>
+                            </tr>
+                        </tbody>
+                        
+                </table>
+                </div>  
+        </section>
+        <div class="divider-max"></div>
+
+
+    <footer id="foot">
+        <div class="bottom">
+            <p>Questions? Contact me: </p>
+            <div class="social-icons">
+                <ul>
+                    <li><a href="https://www.facebook.com/Aayush.914/"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/aa_aayushh/"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <p>Copyright reserved Ⓒ Aayush Lamichhane</p>
+        Uicons by <a href="https://fontawesome.com/" target="_blank">FontAwesome</a>
+    </footer>
+</body>
+</html>

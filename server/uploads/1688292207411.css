@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 14px;
+  color: black;
+  background-color: rgb(113, 151, 149);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 2px;
+  padding: 10px;
+  height: 500px;
+  background: rgba(121, 166, 207, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #fff;
+  border-bottom: 2px double rgb(133, 132, 128);
+  margin-bottom: 10px;
+}
+.line {
+  margin: 5px;
+  border-right: 2px solid rgb(80, 80, 80);
+}
+
+.login-form {
+  margin: 10px;
+  height: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+label {
+  margin-top: 20px;
+  font-size: 20px;
+  color: rgb(77, 74, 71);
+}
+
+input {
+  border: 1px transparent;
+  border-radius: 20px;
+  height: 30px;
+  padding-left: 15px;
+  margin: 5px;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+#submit {
+  width: 100px;
+  height: 40px;
+  border: 1px transparent;
+  border-radius: 20px;
+  box-shadow: 0 2px 2px 0 rgb(83, 83, 83);
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: rgb(192, 75, 75);
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+#submit:hover {
+  zoom: 1.025;
+}
+
+.table {
+  text-align: center;
+  margin: 2px;
+  padding: 5px;
+  /* border: 1px dotted red; */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+table {
+    /* border: 1px solid blue; */
+    flex-direction: row;   
+    height: 100%;
+}
+
+
+
+.sub {
+    font-size: 10px;
+    color: rgb(97, 97, 97);
+}
+tr {
+
+  margin: 2px;
+}
+table {
+  border-collapse: collapse;
+
+}
+
+
+th {
+    color: aliceblue;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 20%;   
+    min-width: 50px;
+    border-bottom:1px dotted rgba(9, 21, 73, 0.438);
+    margin: 5px;
+    padding: 5px;
+    
+
+}
+
+td {
+    border-radius: 20%;
+    font-size: 30px;
+    min-width: 70px;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.border-right {
+  border-right: 1px solid rgba(9, 21, 73, 0.438);
+  border-bottom: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+  
+  .container {
+    width: max-content;
+  }
+    h2 {
+        font-size: 2rem;
+    }
+
+    td,th {
+      font-size: 15px;
+    }
+}
