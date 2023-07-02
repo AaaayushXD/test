@@ -78,12 +78,10 @@ app.get("/profile", (req, res) => {
 
   if (token) {
     Jwt.verify(token, jwtSecret, (err, userData) => {
-      if (err) res.status(403).json("Token not valid");
-
       res.json(userData);
     });
-  } else {
-    res.status(401).json("No token");
+  }  else {
+    throw err;
   }
 });
 
