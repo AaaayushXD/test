@@ -161,6 +161,7 @@ export const MessageArea = (props) => {
 
         return (
           <div
+            key={Math.random()}
             className={
               "flex mb-2 flex-row" +
               " " +
